@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - regression Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>regression Test</h1>
+<p>
+  Test duration: 203.823s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.xcart.mobile.testsuite.TestSuite</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  navigateToContactUSPage
+      </td>
+  <td class="duration">
+    5.644s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on Contact usBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[6]/a[1]/span[1]<br>
+                                verify shoppingtextBy.xpath: //h1[text()='Contact us']<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\mruga\IdeaProjects\X cart_reportNG_Maven\Xcart-reportNG/test-output/html/navigateToContactUSPageFri_Jun_18_16_38_25_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\mruga\IdeaProjects\X cart_reportNG_Maven\Xcart-reportNG/test-output/html/navigateToContactUSPageFri_Jun_18_16_38_25_BST_2021.jpg><img src=C:\Users\mruga\IdeaProjects\X cart_reportNG_Maven\Xcart-reportNG/test-output/html/navigateToContactUSPageFri_Jun_18_16_38_25_BST_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [Contact me] but found [Contact us]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:453)<br />
+              org.testng.Assert.assertEquals(Assert.java:463)<br />
+              com.xcart.mobile.testsuite.TestSuite.navigateToContactUSPage(TestSuite.java:63)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  vefirySalesProductsArrangedByRates
+      </td>
+  <td class="duration">
+    7.896s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        mousehover on HotDeals LinkBy.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/span<br>
+                                Mouse hover on sales link n clikBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]/span[1]<br>
+                                verify Sales Text on sales pageBy.xpath: //h1[@id='page-title']<br>
+                                mouse hover on sort by and click on ratesBy.xpath: //span[@class='sort-by-label']<br>
+                                mouse hover on sort by and click on ratesBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[7]/a[1]<br>
+                                verify Text for RatesBy.xpath: //span[text()='Rates<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\mruga\IdeaProjects\X cart_reportNG_Maven\Xcart-reportNG/test-output/html/vefirySalesProductsArrangedByRatesFri_Jun_18_16_38_50_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\mruga\IdeaProjects\X cart_reportNG_Maven\Xcart-reportNG/test-output/html/vefirySalesProductsArrangedByRatesFri_Jun_18_16_38_50_BST_2021.jpg><img src=C:\Users\mruga\IdeaProjects\X cart_reportNG_Maven\Xcart-reportNG/test-output/html/vefirySalesProductsArrangedByRatesFri_Jun_18_16_38_50_BST_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //span[text()=&apos;Rates because of the following error:<br/>
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//span[text()=&apos;Rates&apos; is not a valid XPath expression.<br/>
+&nbsp; (Session info: chrome=91.0.4472.114)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;LAPTOP-8KS32OGM&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\mruga\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60284}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 08a4a0ffb04f30aa83e548d32d8a1733<br/>
+*** Element info: {Using=xpath, value=//span[text()=&apos;Rates}</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              com.xcart.mobile.utility.Utility.getTextFromElement(Utility.java:36)<br />
+              com.xcart.mobile.page.Hotdeals.verifyRateText(Hotdeals.java:78)<br />
+              com.xcart.mobile.testsuite.TestSuite.vefirySalesProductsArrangedByRates(TestSuite.java:154)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationPlush
+      </td>
+  <td class="duration">
+    40.528s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse Hover on HotDealsBy.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/span<br>
+                                click on Sales LinkBy.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/ul/li[1]/a/span<br>
+                                verify Sales Text on sales pageBy.xpath: //h1[@id='page-title']<br>
+                                Hover on SortByBy.xpath: //span[@class='sort-by-label']<br>
+                                click on product AtoZ orderBy.xpath: //*[@id="XLite-Module-CDev-Sale-View-SalePage-sortby-1"]/li[5]/a<br>
+                                click on product AtoZ orderBy.xpath: //img[@alt='Avengers: Fabrikations Plush [Related Products]']<br>
+                                click on checkboxBy.xpath: //*[@id="content"]/div/div/div[2]/div[4]/div[3]/ul/li[2]/label/div/input[2]<br>
+                                clicking On add to cart buttonBy.xpath: //body/div[@id='mm-0']/div[@id='page-wrapper']/div[@id='page']/div[@id='main-wrapper']/div[@id='main']/div[1]/div[2]/div[1]/div[1]/div[2]/div[4]/form[2]/div[2]/div[1]/div[3]/button[1]
+                                Verifying Text From Green Bar By.xpath: //li[text()='Product has been added to your cart']
+                                click on close barBy.xpath: //a[@class='close']
+                                clicking on your cart and view cart By.xpath: //div[@class='lc-minicart lc-minicart-horizontal collapsed recently-updated']By.xpath: //a[@class='regular-button cart']
+                                Verifying Quantity By.id: page-title
+                                Verifying Quantity after changing By.xpath: //h1[text()='Your shopping cart - 2 items']
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\mruga\IdeaProjects\X cart_reportNG_Maven\Xcart-reportNG/test-output/html/verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationPlushFri_Jun_18_16_40_14_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\mruga\IdeaProjects\X cart_reportNG_Maven\Xcart-reportNG/test-output/html/verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationPlushFri_Jun_18_16_40_14_BST_2021.jpg><img src=C:\Users\mruga\IdeaProjects\X cart_reportNG_Maven\Xcart-reportNG/test-output/html/verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationPlushFri_Jun_18_16_40_14_BST_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[text()=&apos;Your shopping cart - 2 items&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=91.0.4472.114)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;LAPTOP-8KS32OGM&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\mruga\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 9f16c5ee436a1ad98097e19c05892607<br/>
+*** Element info: {Using=xpath, value=//h1[text()=&apos;Your shopping cart - 2 items&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              com.xcart.mobile.utility.Utility.getTextFromElement(Utility.java:36)<br />
+              com.xcart.mobile.page.ShoppingPage.verifyQuantityIsTwo(ShoppingPage.java:123)<br />
+              com.xcart.mobile.testsuite.TestSuite.verifyThatUserShouldPlaceOrderSuccessfullyForAvengersFabrikationPlush(TestSuite.java:302)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.xcart.mobile.testsuite.TestSuite</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  arrangeBestSellerProductByRates
+      </td>
+  <td class="duration">
+    7.551s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Hover on hotdealsBy.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/span<br>
+                                click on Best sellerBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[2]/ul[1]/li[2]/a[1]/span[1]<br>
+                                Hover on sortbyBy.xpath: //span[@class='sort-by-label']<br>
+                                click on RatesBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[2]/ul[1]/li[2]/a[1]/span[1]<br>
+                                verify Text for BestSellerBy.xpath: //h1[@id ='page-title']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  arrangeBestSellerProductZToA
+      </td>
+  <td class="duration">
+    7.599s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Hover on hotdealsBy.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/span<br>
+                                click on Best sellerBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[2]/ul[1]/li[2]/a[1]/span[1]<br>
+                                Hover on sortbyBy.xpath: //span[@class='sort-by-label']<br>
+                                Select Z To ABy.xpath: //body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]<br>
+                                verify Text for BestSellerBy.xpath: //h1[@id ='page-title']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  arrnageBestSellerProductHighToLow
+      </td>
+  <td class="duration">
+    16.603s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Hover on hotdealsBy.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/span<br>
+                                click on Best sellerBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[2]/ul[1]/li[2]/a[1]/span[1]<br>
+                                Hover on sortbyBy.xpath: //span[@class='sort-by-label']<br>
+                                click on Price High To LowBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[2]/ul[1]/li[2]/a[1]/span[1]<br>
+                                verify Text for BestSellerBy.xpath: //h1[@id ='page-title']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  navigateAndVerifyShippingPageToContactUSPage
+      </td>
+  <td class="duration">
+    7.292s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on shipping tabBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[3]/a[1]/span[1]<br>
+                                verify shoppingtextBy.id: page-title<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  navigateToCommingSoonPageTest
+      </td>
+  <td class="duration">
+    1.175s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on comingsoon tabBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[5]/a[1]/span[1]<br>
+                                verify Comingsoon textBy.xpath: //h1[text()='Coming soon']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  navigateToNewPageTest
+      </td>
+  <td class="duration">
+    7.202s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on new arrivalBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[4]/a[1]/span[1]<br>
+                                verify New Arrival TextBy.xpath: //h1[text()='New arrivals']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySaleProductsPriceArrangeLowToHigh
+      </td>
+  <td class="duration">
+    14.237s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        mousehover on HotDeals LinkBy.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/span<br>
+                                Mouse hover on sales link n clikBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]/span[1]<br>
+                                verify Sales Text on sales pageBy.xpath: //h1[@id='page-title']<br>
+                                Mouse hover on SortByBy.xpath: //span[@class='sort-by-label']<br>
+                                click on Name: A to ZBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]<br>
+                                select Price Low-HighBy.xpath: //span[@class='sort-by-label']By.xpath: //body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThatUserShouldClearShoppingCartSuccessfully
+      </td>
+  <td class="duration">
+    14.172s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse Hover on HotDealsBy.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/span<br>
+                                Click on bestseller:By.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/ul/li[2]/a/span<br>
+                                getting best seller messageBy.xpath: //h1[@id='page-title']<br>
+                                Hover on SortByBy.xpath: //span[@class='sort-by-label']<br>
+                                click on product AtoZ orderBy.xpath: //*[@id="XLite-Module-CDev-Bestsellers-View-BestsellersPage-sortby-1"]/li[4]/a<br>
+                                Click on Vinz products:By.xpath: //button[@class='btn  regular-button add-to-cart product-add2cart productid-13']<br>
+                                getting product added messageBy.xpath: //li[text()='Product has been added to your cart']<br>
+                                Click on X signBy.xpath: //a[@class='close']<br>
+                                Click on your cart signBy.xpath: //div[@class='lc-minicart lc-minicart-horizontal collapsed recently-updated']<br>
+                                Click on view cart signBy.xpath: //a[@class='regular-button cart']<br>
+                                Product addedBy.id: page-title<br>
+                                Click on empty cart signBy.xpath: //a[text()='Empty your cart']<br>
+                                Items deleted msgBy.xpath: //li[text()='Item(s) deleted from your cart']<br>
+                                Last messageBy.xpath: //h1[text()='Your cart is empty']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToShippingPageSuccessfully
+      </td>
+  <td class="duration">
+    13.645s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        mousehover on HotDeals LinkBy.xpath: //*[@id="header-area"]/div[1]/div/div[4]/div/ul/li[2]/span<br>
+                                Mouse hover on sales link n clikBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]/span[1]<br>
+                                verify Sales Text on sales pageBy.xpath: //h1[@id='page-title']<br>
+                                Mouse hover on SortByBy.xpath: //span[@class='sort-by-label']<br>
+                                click on Name: A to ZBy.xpath: //body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]<br>
+                                verify Text Name: A to ZBy.xpath: //div[@class='list-header']<br>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
